@@ -3064,6 +3064,10 @@
 	filter: drop-shadow(2px 4px 6px black);
 }
 
+.filter_shadow2{
+	filter: drop-shadow(-8px 4px 6px black);
+}
+
 
 
 
