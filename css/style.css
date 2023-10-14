@@ -2,6 +2,19 @@
       .top_navbar{
         box-shadow: 0 0 50px gray !important ;
       }
+
+      #top_actions_section{
+        display: flex !important;
+        align-items:center !important;
+
+      }
+}
+
+.place{
+    /* vertical-align: top; */
+    position: relative;
+    top: 7px;
+    /* also we can use a one class from mz in the name of "pos-relative top-7" */
 }
 /* .button{
     position: relative;
@@ -19,8 +32,3 @@
     vertical-align: middle;
     transition: .5s ease-out;
 } */
-.place{
-    /* vertical-align: top; */
-    position: relative;
-    top: 7px;
-}
