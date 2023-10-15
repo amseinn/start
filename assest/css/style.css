@@ -44,3 +44,7 @@
 table.highlight > tbody > tr:hover {
   background-color: #26a69a;
 }
+.input-{
+ position: relative;
+ top: 4px;
+}
