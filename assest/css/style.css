@@ -48,3 +48,14 @@ table.highlight > tbody > tr:hover {
  position: relative;
  top: 4px;
 }
+.container{
+  width: 90% !important;
+}
+@media(max-width:600px){
+  .pagination_container{
+    border-radius: 1px !important;
+  }
+  .container{
+    width: 100% !important;
+  }
+}
