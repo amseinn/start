@@ -2639,7 +2639,7 @@
 	flex-direction: row-reverse;
 }
 
-.flex-col {
+.flex-s1{
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -moz-box;
