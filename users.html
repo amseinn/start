@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User</title>
     <link rel="stylesheet" href="/assest/css/materialize.min.css">
+    <link rel="stylesheet" href="/assest/css/materialize-rtl.css">
     <link rel="stylesheet" href="/assest/css/util.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/assest/css/style.css">
+    <link rel="icon" href="/assest/images/favicon.ico" type="image/x-icon">
     <style>
 
     </style>
 </head>
 
-<body class="blue-grey lighten-4">
+<body class="blue-grey lighten-4" dir="rtl">
 
     <!-- ________navbar section ________start__________ -->
 
     <nav class="white z-depth-0 blue-grey lighten-4 top_navbar" style="font-size: 22px;">
         <div class="nav-wrapper">
             <a href="#!" class="blue-grey-text text-darken-3 hide-on-med-and-up">Users Management</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
-                    class="material-icons blue-grey-text text-darken-3">add_to_photos
-                </i></a>
-            <ul class="hide-on-med-and-down ">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right "><i class="material-icons blue-grey-text text-darken-3">menu</i></a>
+            <ul class=" hide-on-med-and-down dis-flex">
                 <li><a class="blue-grey-text text-darken-3" style="font-size: 22px;" href="/">Home</a></li>
                 <li><a class="blue-grey-text text-darken-3" style="font-size: 22px;" href="https://codeyad.com"
                         target="_blank">codeyad</a></li>
@@ -48,13 +48,13 @@
         </li>
         <li>
             <a href="#!">
-                <i class="material-icons">insert_link</i>
+                <i class="material-icons right sidenav_link_icon">insert_link</i>
                 AQ Fast learn
             </a>
         </li>
         <li>
             <a href="https://codeyad.com" target="blank">
-                <i class="material-icons">insert_link</i>
+                <i class="material-icons right sidenav_link_icon">insert_link</i>
                 codeyad
             </a>
         </li>
@@ -74,7 +74,8 @@
     <section id="top_actions_section" class="row m-b-0 container">
         <!--______add button________ -->
         <div class="p-l-10 p-r-10 p-t-10 m-t-12 col s12 m3 l2">
-            <button id="add_user_button" class="waves-effect waves-light btn teal darken-4 p-l-30 p-r-30 w-full rounded_pill flex-c">
+            <button id="add_user_button"
+                class="waves-effect waves-light btn teal darken-4 p-l-30 p-r-30 w-full rounded_pill flex-c">
                 <i class="material-icons m-r-5">add</i>
                 Add User
             </button>
@@ -229,41 +230,40 @@
             </div>
             <div class="pagination_buttons">
                 <i
-                    class="material-icons teal darken-4 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_left</i>
-                <i
                     class="material-icons teal darken-4 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_right</i>
+                <i
+                    class="material-icons teal darken-4 m-l-5 m-r-5 p-l-5 p-r-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_left</i>
+
             </div>
         </div>
     </section>
 
 
     <div class="add_user_modal_back dis-none "></div>
-    <div class="add_user_modal container rounded_top_30 trans-0-1">
+    <div class="add_user_modal container rounded_top_30 trans-0-3">
         <div class="row p-t-10 p-b-10 p-r-40 p-l-40 center-on-small-only ">
             <h5><i class="material-icons m-r-10 m-l-10 pos-relative top-4">person_add</i>
-              Add User
+                Add User
             </h5>
-    
-         <div class="input-field col s12">
-            <input id="name" type="text"  class="validate">
-            <label for="name">name</label>
-         </div>
-         <div class="input-field col s12">
-            <input id="username" type="text"  class="validate">
-            <label for="username">username</label>
-         </div>
-         <div class="input-field col s12">
-            <input id="email" type="text"  class="validate">
-            <label for="email">Email</label>
-         </div>
 
-           <button 
-           type="button"
-           class="waves-effect waves-light btn blue darken-1 m-t-20 m-b-10 w-full max-w-250
+            <div class="input-field col s12">
+                <input id="name" type="text" class="validate">
+                <label for="name">name</label>
+            </div>
+            <div class="input-field col s12">
+                <input id="username" type="text" class="validate">
+                <label for="username">username</label>
+            </div>
+            <div class="input-field col s12">
+                <input id="email" type="text" class="validate">
+                <label for="email">Email</label>
+            </div>
+
+            <button type="button" class="waves-effect waves-light btn blue darken-1 m-t-20 m-b-10 w-full max-w-250
            rounded_pill">
-           submit
-        </button>
-           
+                submit
+            </button>
+
         </div>
     </div>
 
